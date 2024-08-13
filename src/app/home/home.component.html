@@ -2,6 +2,16 @@
   <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
-  <!-- Add your page content here -->
+<GridLayout rows="*, auto, *" verticalAlignment="stretch">
+  <StackLayout row="0" verticalAlignment="top" horizontalAlignment="center" id="one" #one>
+    <Label text="Top" verticalAlignment="top"></Label>
+  </StackLayout>
+
+  <StackLayout row="1" verticalAlignment="center" horizontalAlignment="center" id="two" #two>
+    <Label text="Center" verticalAlignment="center"></Label>
+  </StackLayout>
+
+  <StackLayout row="2" verticalAlignment="bottom" horizontalAlignment="center" id="three" #three>
+    <Label text="Bottom" verticalAlignment="bottom"></Label>
+  </StackLayout>
 </GridLayout>

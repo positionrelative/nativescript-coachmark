@@ -15,12 +15,15 @@
     "@nativescript/angular": "^18.0.0",
     "@nativescript/core": "~8.8.0",
     "@nativescript/theme": "^3.1.0",
+    "@nstudio/nativescript-coachmarks": "^3.0.0",
+    "nativescript-app-tour": "^4.0.0",
     "rxjs": "~7.8.0",
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.0.0",
     "@angular/compiler-cli": "~18.0.0",
+    "@nativescript/android": "8.8.2",
     "@nativescript/types": "~8.8.0",
     "@nativescript/webpack": "~5.0.0",
     "@ngtools/webpack": "~18.0.0",
